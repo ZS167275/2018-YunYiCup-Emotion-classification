@@ -26,12 +26,12 @@ def get_data():
     y = []
     for i in list(train['Score']):
         # 归类处理
-        # if i == 5:
-        #     i = 6
-        # else:
-        #     i = i
-        # y.append(i + np.random.random(1)* 2/4 )
-        y.append(i + 0.0 )
+        if i == 5:
+            i = 6
+        else:
+            i = i
+        y.append(i + np.random.random(1)* 2/4 )
+#         y.append(i + 0.0 )
 
     print(np.array(y).reshape(-1,1)[:,0])
     return data,train.shape[0],np.array(y).reshape(-1,1)[:,0],test['Id']
