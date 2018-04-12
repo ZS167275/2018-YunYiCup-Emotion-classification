@@ -26,4 +26,4 @@
 
 基本结构图
 
-![Alt text](https://github.com/ZS167275/YunYiCup_2018/edit/master/1.png)
+![Alt text](https://github.com/ZS167275/YunYiCup_2018/blob/master/1.png)
